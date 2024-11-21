@@ -37,7 +37,7 @@ def speak(text):
     os.remove("temp.mp3")
 
 def aiProcess(command):
-    OpenAI.api_key = "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"
+    OpenAI.api_key = "Enter API keys"
     
     try:
         # Attempt to use gpt-4
@@ -81,7 +81,7 @@ def processCommand(c):
         link = musicLibrary.music[song]
         webbrowser.open(link)
     elif "news" in c.lower():
-        r = requests.get("https://newsapi.org/v2/top-headlines?country=us&apiKey=3ec7bd69fbfe41f7a0d5a1ab37343b08 = [newsapi]")
+        r = requests.get("https://newsapi.org/v2/top-headlines?country=us&apiKey="API Keys" = [newsapi]")
         
         if r.status_code == 200:
             # Parse JSON response
