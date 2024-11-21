@@ -8,7 +8,7 @@ import os
 openai.api_key = "Enter Your API keys"  # Replace with your actual API key or use environment variable
 
 # Set API key from environment variable
-# openai.api_key = os.getenv("3ec7bd69fbfe41f7a0d5a1ab37343b08")  # Ensure the environment variable is set correctly
+# openai.api_key = os.getenv("API keys")  # Ensure the environment variable is set correctly
 # Set API key in ur system environment then work properly with environment variable
 
 def is_last_message_from_sender(chat_log, sender_name="Mahy"):
