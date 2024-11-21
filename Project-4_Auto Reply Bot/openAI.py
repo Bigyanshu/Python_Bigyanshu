@@ -12,7 +12,7 @@
 import openai
 
 # Set your API key here
-openai.api_key = "3ec7bd69fbfe41f7a0d5a1ab37343b08"
+openai.api_key = "Enter API keys"
 
 # Command text for the prompt
 command = '''
